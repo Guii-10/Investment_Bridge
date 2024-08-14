@@ -1,38 +1,38 @@
 -- Inserindo registros na tabela INVESTIDOR
-INSERT INTO INVESTIDOR (ID, TIPO, NOME, TELEFONE, EMAIL) VALUES (1, 'Anjo', 'João Silva', '11999999999', 'joao.silva@gmail.com');
-INSERT INTO INVESTIDOR (ID, TIPO, NOME, TELEFONE, EMAIL) VALUES (2, 'Venture Capital', 'Maria Oliveira', '21988888888', 'maria.oliveira@hotmail.com');
-INSERT INTO INVESTIDOR (ID, TIPO, NOME, TELEFONE, EMAIL) VALUES (3, 'Anjo', 'Pedro Santos', '31977777777', 'pedro.santos@gmail.com');
-INSERT INTO INVESTIDOR (ID, TIPO, NOME, TELEFONE, EMAIL) VALUES (4, 'Venture Capital', 'Ana Lima', '41966666666', 'ana.lima@hotmail.com');
-INSERT INTO INVESTIDOR (ID, TIPO, NOME, TELEFONE, EMAIL) VALUES (5, 'Anjo', 'Carlos Sousa', '51955555555', 'carlos.sousa@gmail.com');
-INSERT INTO INVESTIDOR (ID, TIPO, NOME, TELEFONE, EMAIL) VALUES (6, 'Venture Capital', 'Lucia Pereira', '61944444444', 'lucia.pereira@hotmail.com');
-INSERT INTO INVESTIDOR (ID, TIPO, NOME, TELEFONE, EMAIL) VALUES (7, 'Anjo', 'José Costa', '71933333333', 'jose.costa@gmail.com');
-INSERT INTO INVESTIDOR (ID, TIPO, NOME, TELEFONE, EMAIL) VALUES (8, 'Venture Capital', 'Fernanda Almeida', '81922222222', 'fernanda.almeida@hotmail.com');
-INSERT INTO INVESTIDOR (ID, TIPO, NOME, TELEFONE, EMAIL) VALUES (9, 'Anjo', 'Roberto Ferreira', '91911111111', 'roberto.ferreira@gmail.com');
-INSERT INTO INVESTIDOR (ID, TIPO, NOME, TELEFONE, EMAIL) VALUES (10, 'Venture Capital', 'Patrícia Silva', '11900000000', 'patricia.silva@hotmail.com');
+INSERT INTO INVESTIDOR (ID, TIPO, NOME, TELEFONE, EMAIL) VALUES ('Anjo', 'João Silva', '11999999999', 'joao.silva@gmail.com');
+INSERT INTO INVESTIDOR (ID, TIPO, NOME, TELEFONE, EMAIL) VALUES ('Venture Capital', 'Maria Oliveira', '21988888888', 'maria.oliveira@hotmail.com');
+INSERT INTO INVESTIDOR (ID, TIPO, NOME, TELEFONE, EMAIL) VALUES ('Anjo', 'Pedro Santos', '31977777777', 'pedro.santos@gmail.com');
+INSERT INTO INVESTIDOR (ID, TIPO, NOME, TELEFONE, EMAIL) VALUES ('Venture Capital', 'Ana Lima', '41966666666', 'ana.lima@hotmail.com');
+INSERT INTO INVESTIDOR (ID, TIPO, NOME, TELEFONE, EMAIL) VALUES ('Anjo', 'Carlos Sousa', '51955555555', 'carlos.sousa@gmail.com');
+INSERT INTO INVESTIDOR (ID, TIPO, NOME, TELEFONE, EMAIL) VALUES ('Venture Capital', 'Lucia Pereira', '61944444444', 'lucia.pereira@hotmail.com');
+INSERT INTO INVESTIDOR (ID, TIPO, NOME, TELEFONE, EMAIL) VALUES ('Anjo', 'José Costa', '71933333333', 'jose.costa@gmail.com');
+INSERT INTO INVESTIDOR (ID, TIPO, NOME, TELEFONE, EMAIL) VALUES ('Venture Capital', 'Fernanda Almeida', '81922222222', 'fernanda.almeida@hotmail.com');
+INSERT INTO INVESTIDOR (ID, TIPO, NOME, TELEFONE, EMAIL) VALUES ('Anjo', 'Roberto Ferreira', '91911111111', 'roberto.ferreira@gmail.com');
+INSERT INTO INVESTIDOR (ID, TIPO, NOME, TELEFONE, EMAIL) VALUES ('Venture Capital', 'Patrícia Silva', '11900000000', 'patricia.silva@hotmail.com');
 
 -- Inserindo registros na tabela CLIENTE
-INSERT INTO CLIENTE (ID, TIPO, NOME, TELEFONE, EMAIL, ENDERECO) VALUES (1, 'Empresa', 'Tech Solutions', '11911111111', 'tech.solutions@gmail.com', 'Rua A, 100, SP');
-INSERT INTO CLIENTE (ID, TIPO, NOME, TELEFONE, EMAIL, ENDERECO) VALUES (2, 'Empresa', 'Health Corp', '21922222222', 'health.corp@hotmail.com', 'Rua B, 200, RJ');
-INSERT INTO CLIENTE (ID, TIPO, NOME, TELEFONE, EMAIL, ENDERECO) VALUES (3, 'Empresa', 'Educa Mais', '31933333333', 'educa.mais@gmail.com', 'Rua C, 300, MG');
-INSERT INTO CLIENTE (ID, TIPO, NOME, TELEFONE, EMAIL, ENDERECO) VALUES (4, 'Empresa', 'AgroTech', '41944444444', 'agro.tech@hotmail.com', 'Rua D, 400, PR');
-INSERT INTO CLIENTE (ID, TIPO, NOME, TELEFONE, EMAIL, ENDERECO) VALUES (5, 'Empresa', 'BuildIt', '51955555555', 'build.it@gmail.com', 'Rua E, 500, RS');
-INSERT INTO CLIENTE (ID, TIPO, NOME, TELEFONE, EMAIL, ENDERECO) VALUES (6, 'Empresa', 'Green Energy', '61966666666', 'green.energy@hotmail.com', 'Rua F, 600, DF');
-INSERT INTO CLIENTE (ID, TIPO, NOME, TELEFONE, EMAIL, ENDERECO) VALUES (7, 'Empresa', 'Travel Co', '71977777777', 'travel.co@gmail.com', 'Rua G, 700, BA');
-INSERT INTO CLIENTE (ID, TIPO, NOME, TELEFONE, EMAIL, ENDERECO) VALUES (8, 'Empresa', 'Foodies', '81988888888', 'foodies@hotmail.com', 'Rua H, 800, PE');
-INSERT INTO CLIENTE (ID, TIPO, NOME, TELEFONE, EMAIL, ENDERECO) VALUES (9, 'Empresa', 'FitLife', '91999999999', 'fit.life@gmail.com', 'Rua I, 900, AM');
-INSERT INTO CLIENTE (ID, TIPO, NOME, TELEFONE, EMAIL, ENDERECO) VALUES (10, 'Empresa', 'AutoTech', '11910101010', 'auto.tech@hotmail.com', 'Rua J, 1000, GO');
+INSERT INTO CLIENTE (ID, TIPO, NOME, TELEFONE, EMAIL, ENDERECO) VALUES ('Pessoa', 'Tech Solutions', '11911111111', 'tech.solutions@gmail.com', 'Rua A, 100, SP');
+INSERT INTO CLIENTE (ID, TIPO, NOME, TELEFONE, EMAIL, ENDERECO) VALUES ('Empresa', 'Health Corp', '21922222222', 'health.corp@hotmail.com', 'Rua B, 200, RJ');
+INSERT INTO CLIENTE (ID, TIPO, NOME, TELEFONE, EMAIL, ENDERECO) VALUES ('Pessoa', 'Educa Mais', '31933333333', 'educa.mais@gmail.com', 'Rua C, 300, MG');
+INSERT INTO CLIENTE (ID, TIPO, NOME, TELEFONE, EMAIL, ENDERECO) VALUES ('Empresa', 'AgroTech', '41944444444', 'agro.tech@hotmail.com', 'Rua D, 400, PR');
+INSERT INTO CLIENTE (ID, TIPO, NOME, TELEFONE, EMAIL, ENDERECO) VALUES ('Pessoa', 'BuildIt', '51955555555', 'build.it@gmail.com', 'Rua E, 500, RS');
+INSERT INTO CLIENTE (ID, TIPO, NOME, TELEFONE, EMAIL, ENDERECO) VALUES ('Empresa', 'Green Energy', '61966666666', 'green.energy@hotmail.com', 'Rua F, 600, DF');
+INSERT INTO CLIENTE (ID, TIPO, NOME, TELEFONE, EMAIL, ENDERECO) VALUES ('Pessoa', 'Travel Co', '71977777777', 'travel.co@gmail.com', 'Rua G, 700, RJ');
+INSERT INTO CLIENTE (ID, TIPO, NOME, TELEFONE, EMAIL, ENDERECO) VALUES ('Empresa', 'Foodies', '81988888888', 'foodies@hotmail.com', 'Rua H, 800, PE');
+INSERT INTO CLIENTE (ID, TIPO, NOME, TELEFONE, EMAIL, ENDERECO) VALUES ('Pessoa', 'FitLife', '91999999999', 'fit.life@gmail.com', 'Rua I, 900, AM');
+INSERT INTO CLIENTE (ID, TIPO, NOME, TELEFONE, EMAIL, ENDERECO) VALUES ('Empresa', 'AutoTech', '11910101010', 'auto.tech@hotmail.com', 'Rua J, 1000, GO');
 
 -- Inserindo registros na tabela PROJETOS
-INSERT INTO PROJETOS (COD, NOME, TIPO, NECESSIDADE_INVESTIMENTO, VALOR_TOTAL) VALUES (1, 'Projeto Alpha', 'Tecnologia', 'Desenvolvimento de software', 500000.00);
-INSERT INTO PROJETOS (COD, NOME, TIPO, NECESSIDADE_INVESTIMENTO, VALOR_TOTAL) VALUES (2, 'Projeto Beta', 'Saúde', 'Equipamentos médicos', 1000000.00);
-INSERT INTO PROJETOS (COD, NOME, TIPO, NECESSIDADE_INVESTIMENTO, VALOR_TOTAL) VALUES (3, 'Projeto Gamma', 'Educação', 'Plataforma de ensino', 300000.00);
-INSERT INTO PROJETOS (COD, NOME, TIPO, NECESSIDADE_INVESTIMENTO, VALOR_TOTAL) VALUES (4, 'Projeto Delta', 'Agronegócio', 'Tecnologia agrícola', 750000.00);
-INSERT INTO PROJETOS (COD, NOME, TIPO, NECESSIDADE_INVESTIMENTO, VALOR_TOTAL) VALUES (5, 'Projeto Epsilon', 'Construção', 'Materiais sustentáveis', 850000.00);
-INSERT INTO PROJETOS (COD, NOME, TIPO, NECESSIDADE_INVESTIMENTO, VALOR_TOTAL) VALUES (6, 'Projeto Zeta', 'Energia', 'Fontes renováveis', 950000.00);
-INSERT INTO PROJETOS (COD, NOME, TIPO, NECESSIDADE_INVESTIMENTO, VALOR_TOTAL) VALUES (7, 'Projeto Eta', 'Turismo', 'Inovação em viagens', 400000.00);
-INSERT INTO PROJETOS (COD, NOME, TIPO, NECESSIDADE_INVESTIMENTO, VALOR_TOTAL) VALUES (8, 'Projeto Theta', 'Alimentação', 'Tecnologia alimentar', 600000.00);
-INSERT INTO PROJETOS (COD, NOME, TIPO, NECESSIDADE_INVESTIMENTO, VALOR_TOTAL) VALUES (9, 'Projeto Iota', 'Esportes', 'Equipamentos fitness', 200000.00);
-INSERT INTO PROJETOS (COD, NOME, TIPO, NECESSIDADE_INVESTIMENTO, VALOR_TOTAL) VALUES (10, 'Projeto Kappa', 'Automotivo', 'Veículos autônomos', 1200000.00);
+INSERT INTO PROJETOS (COD, NOME, TIPO, NECESSIDADE_INVESTIMENTO, VALOR_TOTAL) VALUES ('Projeto Alpha', 'Tecnologia', 'Desenvolvimento de software', 500000.00);
+INSERT INTO PROJETOS (COD, NOME, TIPO, NECESSIDADE_INVESTIMENTO, VALOR_TOTAL) VALUES ('Projeto Beta', 'Saúde', 'Equipamentos médicos', 1000000.00);
+INSERT INTO PROJETOS (COD, NOME, TIPO, NECESSIDADE_INVESTIMENTO, VALOR_TOTAL) VALUES ('Projeto Gamma', 'Educação', 'Plataforma de ensino', 300000.00);
+INSERT INTO PROJETOS (COD, NOME, TIPO, NECESSIDADE_INVESTIMENTO, VALOR_TOTAL) VALUES ('Projeto Delta', 'Agronegócio', 'Tecnologia agrícola', 750000.00);
+INSERT INTO PROJETOS (COD, NOME, TIPO, NECESSIDADE_INVESTIMENTO, VALOR_TOTAL) VALUES ('Projeto Epsilon', 'Construção', 'Materiais sustentáveis', 850000.00);
+INSERT INTO PROJETOS (COD, NOME, TIPO, NECESSIDADE_INVESTIMENTO, VALOR_TOTAL) VALUES ('Projeto Zeta', 'Energia', 'Fontes renováveis', 950000.00);
+INSERT INTO PROJETOS (COD, NOME, TIPO, NECESSIDADE_INVESTIMENTO, VALOR_TOTAL) VALUES ('Projeto Eta', 'Turismo', 'Inovação em viagens', 400000.00);
+INSERT INTO PROJETOS (COD, NOME, TIPO, NECESSIDADE_INVESTIMENTO, VALOR_TOTAL) VALUES ('Projeto Theta', 'Alimentação', 'Tecnologia alimentar', 600000.00);
+INSERT INTO PROJETOS (COD, NOME, TIPO, NECESSIDADE_INVESTIMENTO, VALOR_TOTAL) VALUES ('Projeto Iota', 'Esportes', 'Equipamentos fitness', 200000.00);
+INSERT INTO PROJETOS (COD, NOME, TIPO, NECESSIDADE_INVESTIMENTO, VALOR_TOTAL) VALUES ('Projeto Kappa', 'Automotivo', 'Veículos autônomos', 1200000.00);
 
 -- Inserindo registros na tabela INVESTIDOR_CLIENTE
 INSERT INTO INVESTIDOR_CLIENTE (FK_INVESTIDOR_ID, FK_CLIENTE_ID) VALUES (1, 1);
