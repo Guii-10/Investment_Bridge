@@ -1,8 +1,8 @@
 
 
-INSERT INTO USUARIO (NOME, EMAIL, SENHA, CPF, CEP, TELEFONE, TIPO) VALUES
-('Sandro Curio', 'tedigoverdade@gmail.com', 'verdades123', '12385310212', '57842-000', '(82)4171-3542', 'Investidor'),
-('Gordão do Investimento', 'gordoinveste@gmail.com', 'carol23', '12324224212', '57995-000', '(82)9347-1292', 'Usuario');
+INSERT INTO USUARIO (NOME, EMAIL, SENHA, CPF, CEP, TELEFONE, TIPO, FOTO, BIOGRAFIA) VALUES
+('Sandro Curio', 'tedigoverdade@gmail.com', 'verdades123', '12385310212', '57842-000', '(82)4171-3542', 'Investidor','Sandro Curio.png','Empreendedor de inovação tecnológica e automação.'),
+('Gordão do Investimento', 'gordoinveste@gmail.com', 'carol23', '12324224212', '57995-000', '(82)9347-1292', 'Usuario','Gordão do Investimento.png','Especialista em tecnologia e investimentos.');
 
 INSERT INTO PROJETOS (NOME, DESCRICAO, VALOR_TOTAL, IMAGEM) VALUES
 ('Cachorro Robô', 'Robô autônomo com IA para interação com humanos, sensores de navegação para evitar obstáculos e rodas nas patas para mobilidade versátil em diversos ambientes.', 372560.00, 'cachorro_robo.png'),
@@ -25,9 +25,7 @@ INSERT INTO CHAT (REMETENTE_ID, DESTINATARIO_ID, MENSAGEM, DATA_HORA) VALUES
 (2, 1, 'Claro! Podemos marcar uma reunião para conversarmos sobre o Carro Voador.', '2024-11-21'),
 (1, 2, 'O projeto Tenis Abidas Air está ganhando bastante atenção no mercado, você viu?', '2024-11-22');
 
-INSERT INTO PERFIL_USUARIO (FK_USUARIO_ID, BIOGRAFIA) VALUES
-(1, 'Empreendedor de inovação tecnológica e automação.'),
-(2, 'Especialista em tecnologia e investimentos.');
+
 
 INSERT INTO FORMAS_PAGAMENTO (NOME) VALUES
 ('Cartão de Crédito'),
@@ -36,11 +34,11 @@ INSERT INTO FORMAS_PAGAMENTO (NOME) VALUES
 INSERT INTO PAGAMENTOS (FK_USUARIO_ID, FK_PROJETOS_COD, FK_FORMA_PAGAMENTO_ID, VALOR_PAGO, DATA_PAGAMENTO) VALUES
 (1, 1, 1, 50000.00, '2024-11-22'),
 (1, 2, 2, 100000.00, '2024-11-23'),
-(2, 3, 3, 25000.00, '2024-11-24'),
+(2, 3, 1, 25000.00, '2024-11-24'),
 (1, 4, 1, 75000.00, '2024-11-25'),
 (2, 5, 2, 150000.00, '2024-11-26'),
-(1, 6, 3, 20000.00, '2024-11-27');
+(1, 6, 2, 20000.00, '2024-11-27');
 
-INSERT INTO DADOS_CARTAO (FK_USUARIO_ID, NOME_TITULAR, NUMERO_CARTAO, VALIDADE) VALUES
-(1, 'Sandro Curio', '4111111111111111', '12/2026'),
-(2, 'Gordão do Investimento', '5555555555554444', '11/2028');
+INSERT INTO DADOS_CARTAO (FK_USUARIO_ID, NOME_TITULAR, NUMERO_CARTAO, VALIDADE, CVV) VALUES
+(1, 'Sandro Curio', '4111111111111111', '12/2026', 123),
+(2, 'Gordão do Investimento', '1111222233334444', '11/2028', 124);
