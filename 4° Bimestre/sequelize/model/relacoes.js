@@ -5,7 +5,6 @@ const Pagamentos = require('./pagamentos');
 const DadosCartao = require('./dadosCartao');
 const Chat = require('./chat');
 const UsuarioProjeto = require('./usuarioProjeto');
-const PerfilProjeto = require('./perfilProjeto');
 
 module.exports = () => {
     Pagamentos.belongsTo(Usuario, { foreignKey: 'fkUsuarioId' });
@@ -20,5 +19,4 @@ module.exports = () => {
     Usuario.belongsToMany(Projetos, { through: UsuarioProjeto, foreignKey: 'usuarioId' });
     Projetos.belongsToMany(Usuario, { through: UsuarioProjeto, foreignKey: 'projetoId' });
     
-    PerfilProjeto.belongsTo(Projetos, { foreignKey: 'projetoId' });
 }
